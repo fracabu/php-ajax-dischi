@@ -22,9 +22,9 @@ include 'database.php';
                 <?php foreach ($database as $dischi) { ?>
                     <li>
                         <img src="<?php echo $dischi["poster"]; ?>" alt="">
-                        <h3><?php echo $cd["title"]; ?></h3>
-                        <p><?php echo $cd["author"]; ?></p>
-                        <small><?php echo $cd["year"]; ?></small>
+                        <h3><?php echo $dischi["title"]; ?></h3>
+                        <p><?php echo $dischi["author"]; ?></p>
+                        <small><?php echo $dischi["year"]; ?></small>
                     </li>
                 <?php } ?>
             </ul>
