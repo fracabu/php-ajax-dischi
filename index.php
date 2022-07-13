@@ -19,9 +19,9 @@ include 'database.php';
     <main>
         <div class="container">
             <ul>
-                <?php foreach ($database as $cd) { ?>
+                <?php foreach ($database as $dischi) { ?>
                     <li>
-                        <img src="<?php echo $cd["poster"]; ?>" alt="">
+                        <img src="<?php echo $dischi["poster"]; ?>" alt="">
                         <h3><?php echo $cd["title"]; ?></h3>
                         <p><?php echo $cd["author"]; ?></p>
                         <small><?php echo $cd["year"]; ?></small>
